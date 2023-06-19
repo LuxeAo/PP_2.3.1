@@ -14,7 +14,7 @@ import javax.validation.Valid;
 @RequestMapping("/")
 public class UserController {
 
-    @Autowired// ????? ?? ??????
+    @Autowired
     private final UserService userService;
 
     public UserController(UserService userService) {
